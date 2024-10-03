@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="10dp"
+        android:text="姓名 "
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/context_name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="8dp"
+        android:text="xxx(202050625111)"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="90dp"
+        android:src="@drawable/phone" />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="end"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="30dp"
+        android:src="@drawable/jt" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/block_background_color">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/block_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="33dp"
+            android:text="请假信息"
+            android:textSize="15sp" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="95dp"
+        android:text="是否补假 "
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/context_bujia_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="95dp"
+        android:text="是"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="125dp"
+        android:background="@color/block_background_color">
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/block_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="33dp"
+            android:text="申请内容"
+            android:textSize="15sp" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="180dp"
+        android:text="审批编号"
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/context_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="180dp"
+        android:text="20240926074347890200"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="210dp"
+        android:text="是否离校"
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/context_lixiao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="210dp"
+        android:text="是"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="240dp"
+        android:text="开始时间"
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/context_start_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="240dp"
+        android:text="2024-09-26 07:40"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="270dp"
+        android:text="结束时间"
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/context_end_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="270dp"
+        android:text="2024-09-26 17:41"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="300dp"
+        android:text="  时长(天)"
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/context_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="300dp"
+        android:text="0.42"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="330dp"
+        android:text="请假类型"
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/context_jia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="330dp"
+        android:text="病假"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="360dp"
+        android:text="请假时长\n      (节次)"
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="360dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="410dp"
+        android:text="本人联系电\n               话"
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/context_br_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="410dp"
+        android:text="123456789011"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="460dp"
+        android:text="家长联系人"
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/context_jz_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="460dp"
+        android:text="123456789011"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="490dp"
+        android:text="家长是否知\n               情"
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/context_sfzq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="490dp"
+        android:text="是"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="540dp"
+        android:text="紧急联系电\n               话"
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/context_jj_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="540dp"
+        android:text="123456789012"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="590dp"
+        android:text="请假原因"
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/context_qqyj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="590dp"
+        android:text="感冒发烧"
+        android:textColor="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="630dp"
+        android:text="图片"
+        android:textColor="@color/context_hiht_text"
+        android:textSize="12sp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
