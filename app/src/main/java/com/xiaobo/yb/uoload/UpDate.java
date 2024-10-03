@@ -84,7 +84,7 @@ public class UpDate {
                 }
             }).start();
         } catch (Exception e) {
-            Toast.makeText(context, "出现错误了,请联系开发者,WX:liubo520lngw", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "出现错误了", Toast.LENGTH_SHORT).show();
         }
         return result[0];
     }
