@@ -2,6 +2,7 @@ package com.xiaobo.yb;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -34,7 +35,7 @@ public class WelcomeActivity extends AppCompatActivity {
         MMKV.initialize(this);
         MMKV mmkv = MMKV.defaultMMKV();
 
-        if (mmkv.decodeString("start") != null) {
+        if (mmkv.decodeString("start1") != null) {
             startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
         } else {
             Toast.makeText(WelcomeActivity.this, "欢迎", Toast.LENGTH_LONG).show();
@@ -51,10 +52,21 @@ public class WelcomeActivity extends AppCompatActivity {
         mAdapter = new MyPagerAdapter(aList);
         viewPager.setAdapter(mAdapter);
         TextView textView = (TextView) view2.findViewById(R.id.start_app);
+        TextView github = (TextView) view2.findViewById(R.id.github);
+
+        github.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri uri = Uri.parse("https://github.com/xiaobo2001/yiban");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
+
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mmkv.encode("start", "1");
+                mmkv.encode("start1", "1");
                 startActivity(new Intent(WelcomeActivity.this, MainActivity.class));
             }
         });

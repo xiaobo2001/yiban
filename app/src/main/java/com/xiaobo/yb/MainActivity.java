@@ -659,13 +659,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        bottomImageItem.setOnLongClickListener(new View.OnLongClickListener() {
-            @Override
-            public boolean onLongClick(View v) {
-                startActivity(new Intent(MainActivity.this, WebActivity.class));
-                return true;
-            }
-        });
+//        bottomImageItem.setOnLongClickListener(new View.OnLongClickListener() {
+//            @Override
+//            public boolean onLongClick(View v) {
+//                startActivity(new Intent(MainActivity.this, WebActivity.class));
+//                return true;
+//            }
+//        });
 
         topImageItem.setOnLongClickListener(new View.OnLongClickListener() {
             @Override

@@ -17,7 +17,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal|center_vertical"
-        android:text="                  高仿的界面\n长按‘转发审批表单’可保存数据\n 长按圆形菜单可启停用编辑框"
+        android:text="                  高仿的界面\n长按‘转发审批表单’可保存数据\n 长按圆形菜单可启停用编辑框\n长按审批进度中的绿色圆圈可启用禁用多余内容\n 长按抄送内的按钮可启禁用多余内容"
         android:textColor="@color/red"
         android:textSize="23sp" />
 
