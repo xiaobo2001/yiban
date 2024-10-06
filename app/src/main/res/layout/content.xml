@@ -8,10 +8,43 @@
     android:background="@color/white">
 
     <TextView
+        android:id="@+id/top_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="xxx的请假条"
+        android:textSize="20sp" />
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/block_background_color">
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="13dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/block_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="33dp"
+            android:text="申请人"
+            android:textSize="15sp" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="102dp"
         android:text="姓名 "
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -21,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="120dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="100dp"
         android:text="xxx(202050625111)"
         android:textColor="@color/black"
         android:textSize="14sp" />
@@ -30,7 +63,7 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_gravity="end"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="100dp"
         android:layout_marginEnd="90dp"
         android:src="@drawable/phone" />
 
@@ -38,22 +71,22 @@
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:layout_gravity="end"
-        android:layout_marginTop="5dp"
+        android:layout_marginTop="95dp"
         android:layout_marginEnd="30dp"
         android:src="@drawable/jt" />
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="130dp"
         android:background="@color/block_background_color">
 
         <View
-            android:layout_width="10dp"
-            android:layout_height="20dp"
+            android:layout_width="4dp"
+            android:layout_height="13dp"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="1dp"
             android:background="@color/block_color" />
 
         <TextView
@@ -69,7 +102,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="95dp"
+        android:layout_marginTop="180dp"
         android:text="是否补假 "
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -79,7 +112,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="95dp"
+        android:layout_marginTop="180dp"
         android:text="是"
         android:textColor="@color/black"
         android:textSize="12sp" />
@@ -87,15 +120,15 @@
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_marginTop="125dp"
+        android:layout_marginTop="205dp"
         android:background="@color/block_background_color">
 
         <View
-            android:layout_width="10dp"
-            android:layout_height="20dp"
+            android:layout_width="4dp"
+            android:layout_height="13dp"
             android:layout_gravity="center_vertical"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="1dp"
             android:background="@color/block_color" />
 
         <TextView
@@ -111,7 +144,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="250dp"
         android:text="审批编号"
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -121,7 +154,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="180dp"
+        android:layout_marginTop="250dp"
         android:text="20240926074347890200"
         android:textColor="@color/black"
         android:textSize="12sp" />
@@ -130,7 +163,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="280dp"
         android:text="是否离校"
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -140,7 +173,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginTop="280dp"
         android:text="是"
         android:textColor="@color/black"
         android:textSize="12sp" />
@@ -149,7 +182,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="310dp"
         android:text="开始时间"
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -159,7 +192,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="310dp"
         android:text="2024-09-26 07:40"
         android:textColor="@color/black"
         android:textSize="12sp" />
@@ -168,7 +201,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="340dp"
         android:text="结束时间"
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -178,7 +211,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="270dp"
+        android:layout_marginTop="340dp"
         android:text="2024-09-26 17:41"
         android:textColor="@color/black"
         android:textSize="12sp" />
@@ -187,7 +220,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="370dp"
         android:text="  时长(天)"
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -197,7 +230,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="370dp"
         android:text="0.42"
         android:textColor="@color/black"
         android:textSize="12sp" />
@@ -206,7 +239,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="330dp"
+        android:layout_marginTop="400dp"
         android:text="请假类型"
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -216,7 +249,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="330dp"
+        android:layout_marginTop="400dp"
         android:text="病假"
         android:textColor="@color/black"
         android:textSize="12sp" />
@@ -225,7 +258,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="60dp"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="430dp"
         android:text="请假时长\n      (节次)"
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -234,7 +267,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="150dp"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="430dp"
         android:text=""
         android:textColor="@color/black"
         android:textSize="12sp" />
@@ -243,7 +276,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="48dp"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="475dp"
         android:text="本人联系电\n               话"
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -253,7 +286,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="410dp"
+        android:layout_marginTop="475dp"
         android:text="123456789011"
         android:textColor="@color/black"
         android:textSize="12sp" />
@@ -262,7 +295,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="45dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="515dp"
         android:text="家长联系人"
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -272,7 +305,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="460dp"
+        android:layout_marginTop="515dp"
         android:text="123456789011"
         android:textColor="@color/black"
         android:textSize="12sp" />
@@ -281,7 +314,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="45dp"
-        android:layout_marginTop="490dp"
+        android:layout_marginTop="550dp"
         android:text="家长是否知\n               情"
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -291,7 +324,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="490dp"
+        android:layout_marginTop="550dp"
         android:text="是"
         android:textColor="@color/black"
         android:textSize="12sp" />
@@ -300,7 +333,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="45dp"
-        android:layout_marginTop="540dp"
+        android:layout_marginTop="595dp"
         android:text="紧急联系电\n               话"
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -310,7 +343,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="540dp"
+        android:layout_marginTop="595dp"
         android:text="123456789012"
         android:textColor="@color/black"
         android:textSize="12sp" />
@@ -319,7 +352,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="55dp"
-        android:layout_marginTop="590dp"
+        android:layout_marginTop="640dp"
         android:text="请假原因"
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
@@ -329,7 +362,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="130dp"
-        android:layout_marginTop="590dp"
+        android:layout_marginTop="640dp"
         android:text="感冒发烧"
         android:textColor="@color/black"
         android:textSize="12sp" />
@@ -338,9 +371,413 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="630dp"
+        android:layout_marginTop="675dp"
+        android:layout_marginBottom="20dp"
         android:text="图片"
         android:textColor="@color/context_hiht_text"
         android:textSize="12sp" />
 
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="710dp"
+        android:background="@color/block_background_color">
+
+        <View
+            android:layout_width="4dp"
+            android:layout_height="13dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="1dp"
+            android:background="@color/block_color" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="33dp"
+            android:text="审批进度"
+            android:textSize="15sp" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="750dp"
+        android:orientation="vertical">
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/sp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/sp1_button"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/oval"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/sp1_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="13dp"
+                android:text="xx(232323232)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="40dp"
+                android:text="已同意"
+                android:textColor="@color/green"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="80dp"
+                android:text="通过"
+                android:textColor="@color/green"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/sp1_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="1999-10-11 12:00:11"
+                android:textColor="@color/context_hiht_text"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="35dp"
+                android:background="@color/green" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/sp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/sp2_button"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/oval"
+                android:gravity="center"
+                android:text="2"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/sp2_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="13dp"
+                android:text="xx(232323232)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="40dp"
+                android:text="已同意"
+                android:textColor="@color/green"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="80dp"
+                android:text="通过"
+                android:textColor="@color/green"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/sp2_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="1999-10-11 12:00:11"
+                android:textColor="@color/context_hiht_text"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="35dp"
+                android:background="@color/green" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/sp3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-10dp">
+
+            <TextView
+                android:id="@+id/sp3_button"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/oval"
+                android:gravity="center"
+                android:text="3"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/sp3_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="13dp"
+                android:text="xx(232323232)"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="70dp"
+                android:layout_marginTop="40dp"
+                android:text="已同意"
+                android:textColor="@color/green"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="80dp"
+                android:text="通过"
+                android:textColor="@color/green"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/sp3_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:text="1999-10-11 12:00:11"
+                android:textColor="@color/context_hiht_text"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="70dp"
+                android:layout_marginStart="42dp"
+                android:layout_marginTop="35dp"
+                android:background="@color/green" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        <View
+            android:id="@+id/clone"
+            android:layout_width="30dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="15dp"
+            android:background="#DDDDDD" />
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/cs"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/block_background_color">
+
+            <View
+                android:layout_width="4dp"
+                android:layout_height="13dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="1dp"
+                android:background="@color/block_color" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="33dp"
+                android:text="流程发起时抄送"
+                android:textSize="15sp" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cs1_context_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/rounded_border_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="xxx(xxxxx)"
+                android:textColor="#4D4D4D" />
+
+            <TextView
+                android:id="@+id/cs2_context_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/rounded_border_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="xxx(xxxxx)"
+                android:textColor="#4D4D4D" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cs3_context_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/rounded_border_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="xxx(xxxxx)"
+                android:textColor="#4D4D4D" />
+
+            <TextView
+                android:id="@+id/cs4_context_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/rounded_border_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="xxx(xxxxx)"
+                android:textColor="#4D4D4D" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cs5_context_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/rounded_border_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="xxx(xxxxx)"
+                android:textColor="#4D4D4D" />
+
+            <TextView
+                android:id="@+id/cs6_context_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/rounded_border_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="xxx(xxxxx)"
+                android:textColor="#4D4D4D" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cs7_context_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/rounded_border_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="xxx(xxxxx)"
+                android:textColor="#4D4D4D" />
+
+            <TextView
+                android:id="@+id/cs8_context_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/rounded_border_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="xxx(xxxxx)"
+                android:textColor="#4D4D4D" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/cs9_context_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/rounded_border_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="xxx(xxxxx)"
+                android:textColor="#4D4D4D" />
+
+            <TextView
+                android:id="@+id/cs10_context_name_id"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/rounded_border_background"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="xxx(xxxxx)"
+                android:textColor="#4D4D4D" />
+        </LinearLayout>
+    </LinearLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

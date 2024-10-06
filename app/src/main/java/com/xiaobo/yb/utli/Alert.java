@@ -18,7 +18,7 @@ public class Alert {
     private static EditText editText;
     private static Button button;
 
-    public static Dialog getDialog(Context context, Entity entity, TextView textView) {
+    public static Dialog getDialog(Context context, Entity entity, TextView textView1, TextView textView2) {
         View view = CoordinatorLayout.inflate(context, R.layout.alert, null);
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setTitle(entity.getTitle());
@@ -34,7 +34,10 @@ public class Alert {
             @Override
             public void onClick(View v) {
                 if (!editText.getText().toString().trim().isEmpty()) {
-                    textView.setText(editText.getText().toString());
+                    textView1.setText(editText.getText().toString());
+                    if (textView2 != null) {
+                        textView2.setText(editText.getText().toString());
+                    }
                     dialog.dismiss();
                 } else {
                     Toast.makeText(context, "内容为空", Toast.LENGTH_LONG).show();

@@ -7,18 +7,22 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="仅供学习交流使用,切勿用于违法用途！" />/>
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="13sp"
+        android:text="警告：本程序仅供演示，请勿滥用。一切后果自负。\n            仅供学习交流使用,切勿用于非法用途！"
+        android:textColor="@color/red" />
 
     <EditText
         android:id="@+id/edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="55dp"
         android:layout_marginEnd="30dp"
         android:hint="请输入内容" />
 
@@ -27,9 +31,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="115dp"
         android:layout_marginEnd="30dp"
-        android:text="修改内容"
-        android:layout_marginBottom="20dp"/>
+        android:layout_marginBottom="20dp"
+        android:text="修改内容" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
