@@ -14,6 +14,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="5dp"
         android:text="xxx的请假条"
+        android:textColor="@color/black"
         android:textSize="20sp" />
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -36,7 +37,8 @@
             android:layout_gravity="center_vertical"
             android:layout_marginStart="33dp"
             android:text="申请人"
-            android:textSize="15sp" />
+            android:textColor="@color/black"
+            android:textSize="13sp" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
@@ -64,7 +66,7 @@
         android:layout_height="20dp"
         android:layout_gravity="end"
         android:layout_marginTop="100dp"
-        android:layout_marginEnd="90dp"
+        android:layout_marginEnd="70dp"
         android:src="@drawable/phone" />
 
     <ImageView
@@ -95,7 +97,8 @@
             android:layout_gravity="center_vertical"
             android:layout_marginStart="33dp"
             android:text="请假信息"
-            android:textSize="15sp" />
+            android:textColor="@color/black"
+            android:textSize="13sp" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     <TextView
@@ -137,7 +140,8 @@
             android:layout_gravity="center_vertical"
             android:layout_marginStart="33dp"
             android:text="申请内容"
-            android:textSize="15sp" />
+            android:textColor="@color/black"
+            android:textSize="13sp" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     <TextView
@@ -397,7 +401,8 @@
             android:layout_gravity="center_vertical"
             android:layout_marginStart="33dp"
             android:text="审批进度"
-            android:textSize="15sp" />
+            android:textColor="@color/black"
+            android:textSize="13sp" />
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
     <LinearLayout
@@ -430,6 +435,7 @@
                 android:layout_marginStart="70dp"
                 android:layout_marginTop="13dp"
                 android:text="xx(232323232)"
+                android:textColor="@color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -494,6 +500,7 @@
                 android:layout_marginStart="70dp"
                 android:layout_marginTop="13dp"
                 android:text="xx(232323232)"
+                android:textColor="@color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -558,6 +565,7 @@
                 android:layout_marginStart="70dp"
                 android:layout_marginTop="13dp"
                 android:text="xx(232323232)"
+                android:textColor="@color/black"
                 android:textSize="15sp" />
 
             <TextView
@@ -626,7 +634,8 @@
                 android:layout_gravity="center_vertical"
                 android:layout_marginStart="33dp"
                 android:text="流程发起时抄送"
-                android:textSize="15sp" />
+                android:textColor="@color/black"
+                android:textSize="13sp" />
         </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
